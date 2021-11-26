@@ -1,0 +1,160 @@
+body {
+  background: black;
+  font-family: "Roboto", sans-serif;
+}
+@media print {
+  page {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+}
+.icon-image {
+  height: 25px;
+  width: 25px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 297mm;
+  width: 210mm;
+  background: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  margin: 20px;
+  width: 70%;
+  font-size: 8px;
+  color: grey;
+  align-self: center;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  padding: 25px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  width: 30%;
+  height: 100%;
+}
+
+.photo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  height: 40mm;
+}
+
+.skills {
+  margin: 0 25px 0 25px;
+  font-size: 10px;
+}
+
+.skills p {
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+
+.head-titles {
+  height: 50mm;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+}
+
+.title {
+  font-family: "Cairo", sans-serif;
+}
+
+.contact {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-each-company {
+  margin-bottom: 40px;
+}
+
+.content-header-title {
+  margin-bottom: 0px;
+}
+
+.content-row-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-row-title {
+  font-size: 12px;
+}
+
+.content-row-date {
+  font-size: 12px;
+}
+
+.content-project-row {
+  font-size: 9px;
+  margin-bottom: 10px;
+  padding-right: 50px;
+}
+
+.content-project-row p {
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.project-desc-row {
+  margin-bottom: 2px;
+  font-size: 8px;
+}
+
+hr.cool-style {
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0px;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #3d41ff, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #7070ff, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #7070ff, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #7070ff, #f0f0f0);
+}
+
+ul,
+li {
+  padding-left: 4px;
+  list-style-position: outside;
+  list-style: none;
+}
